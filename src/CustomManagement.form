@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CustomManagement">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="557" height="554"/>
+    </constraints>
+    <properties>
+      <background color="-15531942"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="72f83" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <foreground color="-1381654"/>
+          <text value="Manage Examination (Custom allocation)"/>
+        </properties>
+      </component>
+      <component id="56843" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Branch Name : "/>
+        </properties>
+      </component>
+      <component id="be2a1" class="javax.swing.JTextField" binding="branchNameField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="4ab0b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Enrollment ID: (from) "/>
+        </properties>
+      </component>
+      <component id="8e8a1" class="javax.swing.JTextField" binding="enrollmentStartField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <caretColor color="-1381654"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="84706" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Subject Code : "/>
+        </properties>
+      </component>
+      <component id="16d17" class="javax.swing.JTextField" binding="subjectCodeField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="513b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Enter Room Name : "/>
+        </properties>
+      </component>
+      <component id="4d1dc" class="javax.swing.JTextField" binding="roomNameField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="5c995" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Rows In Room : "/>
+        </properties>
+      </component>
+      <component id="313db" class="javax.swing.JTextField" binding="rowsInRoomField">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="67132" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Columns In Room : "/>
+        </properties>
+      </component>
+      <component id="754c6" class="javax.swing.JTextField" binding="columnsInRoomField">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="5dfa0" class="javax.swing.JTextField" binding="enrollementEndField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <caretColor color="-1381654"/>
+          <foreground color="-1381654"/>
+        </properties>
+      </component>
+      <component id="4e36e" class="javax.swing.JButton" binding="deleteButton1" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16529016"/>
+          <foreground color="-1381654"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="5e41e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Selected Rooms : "/>
+        </properties>
+      </component>
+      <component id="8b8f4" class="javax.swing.JLabel" binding="selectedRoomsLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="bcb32" class="javax.swing.JButton" binding="getSeatingPlanButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16529016"/>
+          <foreground color="-1381654"/>
+          <text value="Get Seating Plan"/>
+        </properties>
+      </component>
+      <component id="92596" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="To : "/>
+        </properties>
+      </component>
+      <component id="1949c" class="javax.swing.JButton" binding="addToSelectedRoomsBtn">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16529016"/>
+          <foreground color="-1381654"/>
+          <text value="Add to Selected Rooms"/>
+        </properties>
+      </component>
+      <component id="20c7f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15531942"/>
+          <foreground color="-1381654"/>
+          <text value="Selected Branches : "/>
+        </properties>
+      </component>
+      <component id="e65a" class="javax.swing.JLabel" binding="selectedBranchesLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1381654"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="141a8" class="javax.swing.JButton" binding="addToSelectedBranchesButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16529016"/>
+          <foreground color="-1381654"/>
+          <text value="Add to Selected Branches"/>
+        </properties>
+      </component>
+      <component id="400c6" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16529016"/>
+          <foreground color="-1381654"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
